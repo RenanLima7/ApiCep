@@ -1,0 +1,10 @@
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\bin\Debug\ApiCep.exe.config
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\bin\Debug\ApiCep.exe
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\bin\Debug\ApiCep.pdb
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.csproj.AssemblyReference.cache
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.Form1.resources
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.Properties.Resources.resources
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.csproj.GenerateResource.cache
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.csproj.CoreCompileInputs.cache
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.exe
+C:\Users\francisco.rodrigues\Desktop\Projects\ApiCep\ApiCep\ApiCep\obj\Debug\ApiCep.pdb
