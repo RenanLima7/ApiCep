@@ -1,7 +1,7 @@
 ﻿
 namespace ApiCep
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -31,152 +31,134 @@ namespace ApiCep
         {
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.btnLogradouro = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnIbge = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnCEP = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.pnlLogo = new System.Windows.Forms.Panel();
+            this.lblLogo = new System.Windows.Forms.Label();
+            this.pnlTitleBar = new System.Windows.Forms.Panel();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.pnlMenu.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlLogo.SuspendLayout();
+            this.pnlTitleBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.pnlMenu.Controls.Add(this.btnLogradouro);
-            this.pnlMenu.Controls.Add(this.label3);
             this.pnlMenu.Controls.Add(this.btnIbge);
-            this.pnlMenu.Controls.Add(this.label2);
             this.pnlMenu.Controls.Add(this.btnCEP);
-            this.pnlMenu.Controls.Add(this.panel1);
+            this.pnlMenu.Controls.Add(this.pnlLogo);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(370, 858);
+            this.pnlMenu.Size = new System.Drawing.Size(279, 594);
             this.pnlMenu.TabIndex = 0;
             // 
             // btnLogradouro
             // 
+            this.btnLogradouro.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLogradouro.FlatAppearance.BorderSize = 0;
             this.btnLogradouro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogradouro.Font = new System.Drawing.Font("Ruda", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogradouro.Font = new System.Drawing.Font("Ruda", 18F);
             this.btnLogradouro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.btnLogradouro.Location = new System.Drawing.Point(0, 437);
+            this.btnLogradouro.Location = new System.Drawing.Point(0, 281);
             this.btnLogradouro.Name = "btnLogradouro";
-            this.btnLogradouro.Size = new System.Drawing.Size(370, 97);
+            this.btnLogradouro.Size = new System.Drawing.Size(279, 90);
             this.btnLogradouro.TabIndex = 5;
             this.btnLogradouro.Text = "LOGRADOURO";
             this.btnLogradouro.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.label3.Location = new System.Drawing.Point(33, 421);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(307, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "__________________________________________________";
+            this.btnLogradouro.Click += new System.EventHandler(this.btnLogradouro_Click_1);
             // 
             // btnIbge
             // 
+            this.btnIbge.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnIbge.FlatAppearance.BorderSize = 0;
             this.btnIbge.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIbge.Font = new System.Drawing.Font("Ruda", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIbge.Font = new System.Drawing.Font("Ruda", 18F);
             this.btnIbge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.btnIbge.Location = new System.Drawing.Point(0, 321);
+            this.btnIbge.Location = new System.Drawing.Point(0, 191);
             this.btnIbge.Name = "btnIbge";
-            this.btnIbge.Size = new System.Drawing.Size(370, 97);
+            this.btnIbge.Size = new System.Drawing.Size(279, 90);
             this.btnIbge.TabIndex = 3;
             this.btnIbge.Text = "CÓDIGO IBGE";
             this.btnIbge.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.label2.Location = new System.Drawing.Point(33, 305);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(307, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "__________________________________________________";
+            this.btnIbge.Click += new System.EventHandler(this.btnIbge_Click_1);
             // 
             // btnCEP
             // 
+            this.btnCEP.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCEP.FlatAppearance.BorderSize = 0;
             this.btnCEP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCEP.Font = new System.Drawing.Font("Ruda", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCEP.Font = new System.Drawing.Font("Ruda", 18F);
             this.btnCEP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.btnCEP.Location = new System.Drawing.Point(0, 216);
+            this.btnCEP.Location = new System.Drawing.Point(0, 101);
             this.btnCEP.Name = "btnCEP";
-            this.btnCEP.Size = new System.Drawing.Size(370, 97);
+            this.btnCEP.Size = new System.Drawing.Size(279, 90);
             this.btnCEP.TabIndex = 1;
             this.btnCEP.Text = "CEP";
             this.btnCEP.UseVisualStyleBackColor = true;
+            this.btnCEP.Click += new System.EventHandler(this.btnCEP_Click_1);
             // 
-            // panel1
+            // pnlLogo
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(114)))), ((int)(((byte)(255)))));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(370, 147);
-            this.panel1.TabIndex = 0;
+            this.pnlLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(114)))), ((int)(((byte)(255)))));
+            this.pnlLogo.Controls.Add(this.lblLogo);
+            this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlLogo.Location = new System.Drawing.Point(0, 0);
+            this.pnlLogo.Name = "pnlLogo";
+            this.pnlLogo.Size = new System.Drawing.Size(279, 101);
+            this.pnlLogo.TabIndex = 0;
             // 
-            // label1
+            // lblLogo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Ruda", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.label1.Location = new System.Drawing.Point(62, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 90);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "GitHub\n@RenanLima7";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLogo.AutoSize = true;
+            this.lblLogo.Font = new System.Drawing.Font("Ruda", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
+            this.lblLogo.Location = new System.Drawing.Point(68, 26);
+            this.lblLogo.Name = "lblLogo";
+            this.lblLogo.Size = new System.Drawing.Size(141, 54);
+            this.lblLogo.TabIndex = 0;
+            this.lblLogo.Text = "GitHub\n@RenanLima7";
+            this.lblLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel2
+            // pnlTitleBar
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(228)))));
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(370, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1011, 147);
-            this.panel2.TabIndex = 1;
+            this.pnlTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(96)))), ((int)(((byte)(228)))));
+            this.pnlTitleBar.Controls.Add(this.lblTitle);
+            this.pnlTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTitleBar.Location = new System.Drawing.Point(279, 0);
+            this.pnlTitleBar.Name = "pnlTitleBar";
+            this.pnlTitleBar.Size = new System.Drawing.Size(770, 101);
+            this.pnlTitleBar.TabIndex = 1;
             // 
-            // label4
+            // lblTitle
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Ruda", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
-            this.label4.Location = new System.Drawing.Point(419, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(252, 72);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Principal";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Ruda", 25F);
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(245)))));
+            this.lblTitle.Location = new System.Drawing.Point(319, 26);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(160, 45);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Principal";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1381, 858);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1049, 594);
+            this.Controls.Add(this.pnlTitleBar);
             this.Controls.Add(this.pnlMenu);
-            this.Name = "Form1";
+            this.Name = "FrmMain";
             this.Text = "Form1";
             this.pnlMenu.ResumeLayout(false);
-            this.pnlMenu.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlLogo.ResumeLayout(false);
+            this.pnlLogo.PerformLayout();
+            this.pnlTitleBar.ResumeLayout(false);
+            this.pnlTitleBar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -184,15 +166,13 @@ namespace ApiCep
         #endregion
 
         private System.Windows.Forms.Panel pnlMenu;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel pnlLogo;
+        private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.Button btnCEP;
         private System.Windows.Forms.Button btnLogradouro;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnIbge;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel pnlTitleBar;
+        private System.Windows.Forms.Label lblTitle;
     }
 }
 
